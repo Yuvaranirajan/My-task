@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="domstyle.css">
+    <script src="https://kit.fontawesome.com/d6f6d4254b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- <h1>DOM</h1>
+    <p>this is dom</p>  -->
+    <div class="formcontainer">
+        <form id="form">
+            <div class="title">Form </div>
+            <!-- <code><p>&#38lt;</p></code> -->
+                <div>
+                    <label for="username">User Name</label>
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" name="username" id="username" placeholder="Enter your name..">
+                    <i class="fa-sharp fa-solid fa-xmark failur-icon"></i>
+                    <i class="fa-solid fa-check success-icon"></i>
+                    <div class="error"></div>
+                </div>
+                <div>
+                    
+                    <label for="password">Password</label>
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="password" id="password" placeholder="Enter your Password">
+                    <i class="fa-sharp fa-solid fa-xmark failur-icon"></i>
+                    <i class="fa-solid fa-check success-icon"></i>
+                    <div class="error"></div>
+                </div>
+                <div>
+                    <button name="submit" id="submit">click me</button>
+                    <!-- <input type="button" name="submit" id="submit" value="Submit"> -->
+                </div>
+        </form>
+    </div>
+      <!-- <button style="width: 200px;" >click me</button> -->
+     <div class="popcontainer" id="modalpopup">
+        <div class="pop1">
+        <div class="headpopup">
+            <h1>MY View</h1>
+            <i class="fa-solid fa-xmark " id="cross"></i>
+        </div>
+        <div class="popcontent">
+           <p>Hi... This popup demo.... Have a Great day!...</p>
+        </div>
+        <div class="popfooter">
+            <h3>End view</h3>
+            <button>Cancel</button>
+        </div>
+     </div>
+    </div> 
+    <script src="dom.js"></script>
+    <!-- <script src="modalpopup.js"></script> -->
+</body>
+</html>
